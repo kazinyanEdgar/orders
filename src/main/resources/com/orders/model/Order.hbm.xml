@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping xmlns="http://www.hibernate.org/xsd/hibernate-mapping">
+
+    <class name="com.orders.model.Order" table="orders">
+        <id name="idOrder" column="id_order">
+            <generator class="identity"/>
+        </id>
+        <property name="customerName" column="customer_name"/>
+        <property name="customerAddress" column="customer_Address"/>
+        <property name="totalAmount" column="total_amount"/>
+        <property name="dateManufacture" column="date_manufacture"/>
+
+    </class>
+
+</hibernate-mapping>

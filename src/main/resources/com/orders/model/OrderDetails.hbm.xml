@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping xmlns="http://www.hibernate.org/xsd/hibernate-mapping">
+
+    <class name="com.orders.model.OrderDetails" table="order_details">
+        <id name="id" column="id">
+            <generator class="identity"/>
+        </id>
+        <property name="number" column="number"/>
+
+        <many-to-one name="idOrderDetails" column="id_order_details"
+                     class="com.orders.model.Order"
+                     cascade="save-update"/>
+
+        <many-to-one name="serialNumber" column="serial_number"
+                     class="com.orders.model.ProductDescription"
+                     cascade="save-update"/>
+
+    </class>
+
+
+</hibernate-mapping>

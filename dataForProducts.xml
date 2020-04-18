@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<products>
+    <product>
+        <idSerialNumber>1q2e1z611</idSerialNumber>
+        <productName>Краска</productName>
+        <description>Темных оттенков</description>
+        <dateSerialProduction>2015-10-02</dateSerialProduction>
+    </product>
+    <product>
+        <idSerialNumber>23dw292</idSerialNumber>
+        <productName>Текстиль</productName>
+        <description>Для дома</description>
+        <dateSerialProduction>2018-01-10</dateSerialProduction>
+    </product>
+    <product>
+        <idSerialNumber>3s1a027s</idSerialNumber>
+        <productName>Лампы</productName>
+        <description>Дневного света</description>
+        <dateSerialProduction>2019-05-06</dateSerialProduction>
+    </product>
+    <product>
+        <idSerialNumber>4s452d34</idSerialNumber>
+        <productName>Ключи</productName>
+        <description>Разных видов</description>
+        <dateSerialProduction>2020-01-30</dateSerialProduction>
+    </product>
+</products>

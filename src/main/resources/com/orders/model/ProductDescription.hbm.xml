@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping xmlns="http://www.hibernate.org/xsd/hibernate-mapping">
+
+    <class name="com.orders.model.ProductDescription" table="product_description">
+        <id name="idSerialNumber" column="id_serial_number"/>
+        <property name="productName" column="product_name"/>
+        <property name="description" column="description"/>
+        <property name="dateSerialProduction" column="date_serial_production"/>
+    </class>
+
+</hibernate-mapping>
